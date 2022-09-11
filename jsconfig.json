@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "checkJs": true,
+    "lib": ["ES2022", "DOM"],
+    "module": "ES2022",
+    "paths": {
+      "/*": ["./*"]
+    },
+    "target": "ES2021"
+  },
+  "include": ["**/*.js"],
+  "exclude": ["*rc.js"]
+}

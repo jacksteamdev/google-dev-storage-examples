@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "google-dev-storage-examples",
+  "version": "1.0.0",
+  "description": "Google Dev Docs Storage API Examples",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "^0.0.196",
+    "eslint": "^8.23.0",
+    "prettier": "^2.7.1"
+  }
+}

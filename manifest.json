@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Google Dev Docs Storage API Examples",
+  "version": "1.0.0",
+  "description": "Updated examples of Promisified usage of the Chrome Storage API",
+  "action": {},
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "permissions": ["storage"]
+}
