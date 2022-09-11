@@ -19,3 +19,21 @@ chrome.storage.local.set({ key: value }).then(function () {
 chrome.storage.local.get(["key"]).then(function (result) {
   console.log("Value currently is " + result.key);
 });
+
+// session examples
+
+chrome.storage.session.set({ key: value }).then(function () {
+  console.log("Value is set to " + value);
+});
+
+chrome.storage.session.get(["key"]).then(function (result) {
+  console.log("Value currently is " + result.key);
+});
+
+// async/await example
+
+await chrome.storage.session.set({ key: value });
+console.log("Value is set to " + value);
+
+const result = await chrome.storage.session.get(["key"]);
+console.log("Value currently is " + result.key);
